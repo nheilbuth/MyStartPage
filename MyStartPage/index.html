@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="myStartPage">
+<head>
+    <title>My StartPage by @@nheilbuth</title>
+    <link href="/css/MyStartPage.css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-controller="mainCtrl">
+        <img ng-src="{{data.logo}}" />
+        <div>
+            <a ng-repeat="site in data.sites" ng-href="{{site.url}}" class="site">
+                <span ng-bind="site.name"></span>
+            </a>
+        </div>
+    </div>
+    
+    <script src="/Scripts/angular.min.js"></script>
+    <script src="/Scripts/MyStartPageApp/app.js"></script>
+    <script src="/Scripts/MyStartPageApp/SitesListCtrl.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿{
+    "sites": [
+        {
+            "name": "Eksponent wiki",
+            "url": "http://wiki"
+        },
+        {
+            "name": "Projektsystem",
+            "url": "http://projektsystem.eksponent.com"
+        }
+    ],
+    "logo": "/images/eksponent_logo.svg"
+}
